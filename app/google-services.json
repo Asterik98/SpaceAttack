@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "516478703013",
+    "firebase_url": "https://spaceshooter-61b87.firebaseio.com",
+    "project_id": "spaceshooter-61b87",
+    "storage_bucket": "spaceshooter-61b87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516478703013:android:61131b858c1ae4755ac44c",
+        "android_client_info": {
+          "package_name": "com.example.spaceattack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516478703013-pu9hh4u6iitdnelhmjpgfljm5cpkiuok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyFiBM08jsHlHKl6J-g0PGXO2byyXHLx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516478703013-pu9hh4u6iitdnelhmjpgfljm5cpkiuok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

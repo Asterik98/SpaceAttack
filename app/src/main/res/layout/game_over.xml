@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/window">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Over!!"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:textColor="#e7ebf2"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Nama:"
+        android:textColor="#e7ebf2"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:id="@+id/player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="edward"
+        android:textColor="#e7ebf2"
+        android:textSize="15dp"
+        />
+
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="Score: "
+        android:textColor="#e7ebf2"
+        android:textSize="15dp"
+        />
+
+
+    <TextView
+        android:id="@+id/nilai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#e7ebf2"
+        android:textSize="15dp"
+        />
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:onClick="BackToMenu"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/btn_home"
+        />
+
+</LinearLayout>

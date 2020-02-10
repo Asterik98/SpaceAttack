@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".GameView">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Space Attack"
+            android:textStyle="bold"
+            android:textColor="#e7ebf2"
+            android:textSize="50sp"
+            android:fontFamily="sans-serif-black"/>
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:onClick="playClick"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/btn_play"
+            />
+
+        <ImageButton
+            android:id="@+id/play2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:onClick="play2Click"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/btn_multi"
+            />
+
+        <ImageButton
+            android:id="@+id/stop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:onClick="stopClick"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/btn_leader"
+            />
+
+</LinearLayout>
